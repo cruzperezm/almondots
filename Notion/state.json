@@ -1,0 +1,99 @@
+{
+	"history": {
+		"appRestorationState": [
+			{
+				"type": "notion",
+				"windowId": "5328b198-7062-4325-af34-99a6c47fb1d5",
+				"focusOrder": 2,
+				"displayState": {
+					"normalBounds": {
+						"x": 6,
+						"y": 26,
+						"width": 710,
+						"height": 838
+					},
+					"displayBounds": [
+						{
+							"x": 0,
+							"y": 0,
+							"width": 1440,
+							"height": 900
+						}
+					],
+					"isFullScreen": false,
+					"isHtmlFullScreen": false,
+					"isMaximized": false
+				},
+				"tabs": [
+					{
+						"tabId": "95f785fb-5120-47cf-9546-c5db99de9ad6",
+						"url": "https://www.notion.so/marsarson/ULPGC-c1a8a39a5d1d49dfa7554221b6584d28",
+						"index": 0,
+						"isActive": true
+					}
+				]
+			}
+		],
+		"lastFocusedWindowDisplayState": {
+			"normalBounds": {
+				"x": 6,
+				"y": 26,
+				"width": 710,
+				"height": 838
+			},
+			"displayBounds": [
+				{
+					"x": 0,
+					"y": 0,
+					"width": 1440,
+					"height": 900
+				}
+			],
+			"isFullScreen": false,
+			"isHtmlFullScreen": false,
+			"isMaximized": false
+		}
+	},
+	"appState": {
+		"zoomFactor": 1,
+		"theme": {
+			"mode": "light",
+			"usingSystemTheme": true,
+			"colors": {
+				"white": "white",
+				"blue": "#2383E2"
+			},
+			"borderRadius": 4,
+			"textColor": "rgba(55, 53, 47, 1)",
+			"popoverBackgroundColor": "white",
+			"popoverBoxShadow": "\n\t\t\t\t\t 0 0 0 1px rgba(15,15,15,.05),\n\t\t\t\t\t 0 3px 6px rgba(15,15,15,.1),\n\t\t\t\t\t 0 9px 24px rgba(15,15,15,.2)\n\t\t\t\t",
+			"inputBoxShadow": "\n\t\t\t\t\tinset 0 0 0 1px rgba(15,15,15,.1)\n\t\t\t\t",
+			"inputBackgroundColor": "rgba(242,241,238,0.6)",
+			"dividerColor": "rgba(55,53,47,.16)",
+			"shadowOpacity": 0.1
+		},
+		"preferences": {
+			"isClosingBrowserTabs": false,
+			"isHardwareAccelerationDisabled": false,
+			"updaterChannel": null,
+			"isQuickSearchEnabled": true,
+			"isAutoUpdaterDisabled": false,
+			"isOpenAtLoginEnabled": false,
+			"isHideLastWindowOnCloseEnabled": true,
+			"isUnifiedTitleBarEnabled": true,
+			"isUsingHttps": true,
+			"isVibrancyEnabled": null,
+			"isNavigationHistoryEnabled": true,
+			"isNewTabSearchEnabled": true,
+			"isTabPreviewEnabled": true,
+			"isPinnedTabsEnabled": true,
+			"quickSearchShortcut": "shift+ctrl+k",
+			"isUniversalLinksEnabled": true,
+			"notionAiShortcut": "shift+ctrl+j",
+			"isMenuBarIconEnabled": true,
+			"onStartup": "continue"
+		},
+		"notificationCount": 0,
+		"isTabBarContextMenuOpen": false
+	}
+}

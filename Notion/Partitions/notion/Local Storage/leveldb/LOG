@@ -1,0 +1,9 @@
+2024/08/26-17:58:09.846 14b5 Reusing MANIFEST /home/marga/.config/Notion/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2024/08/26-17:58:09.862 14b5 Recovering log #12
+2024/08/26-17:58:09.862 14b5 Reusing old log /home/marga/.config/Notion/Partitions/notion/Local Storage/leveldb/000012.log 
+2024/08/26-17:59:10.517 14b6 Level-0 table #16: started
+2024/08/26-17:59:10.521 14b6 Level-0 table #16: 18091 bytes OK
+2024/08/26-17:59:10.524 14b6 Delete type=0 #12
+2024/08/26-18:08:19.890 14b6 Level-0 table #18: started
+2024/08/26-18:08:19.902 14b6 Level-0 table #18: 14609 bytes OK
+2024/08/26-18:08:19.906 14b6 Delete type=0 #15

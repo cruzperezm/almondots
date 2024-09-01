@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name[en_GB.UTF-8]=IBus Daemon
+Comment[en_GB.UTF-8]=Use and manage input methods
+Exec=ibus-daemon -drx
+Icon=ibus-setup
+Type=Application
+X-GNOME-Autostart-enabled=false

@@ -1,0 +1,28 @@
+2024/08/25-23:56:59.195 111be Reusing MANIFEST /home/marga/.config/Notion/Partitions/notion/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/25-23:56:59.196 111be Recovering log #4
+2024/08/25-23:56:59.197 111be Reusing old log /home/marga/.config/Notion/Partitions/notion/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000004.log 
+2024/08/25-23:57:00.235 111e5 Level-0 table #8: started
+2024/08/25-23:57:00.239 111e5 Level-0 table #8: 2615 bytes OK
+2024/08/25-23:57:00.242 111e5 Delete type=0 #4
+2024/08/25-23:57:00.242 111e3 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/25-23:57:00.460 111bd Level-0 table #10: started
+2024/08/25-23:57:00.462 111bd Level-0 table #10: 546 bytes OK
+2024/08/25-23:57:00.464 111bd Delete type=0 #7
+2024/08/25-23:57:00.465 111bd Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 218 : 1
+2024/08/25-23:57:00.465 111bd Compacting 1@0 + 1@1 files
+2024/08/25-23:57:00.468 111bd Generated table #11@0: 120 keys, 1617 bytes
+2024/08/25-23:57:00.469 111bd Compacted 1@0 + 1@1 files => 1617 bytes
+2024/08/25-23:57:00.471 111bd compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/25-23:57:00.471 111bd Delete type=2 #10
+2024/08/25-23:57:00.472 111bd Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 218 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/25-23:59:33.004 111bd Level-0 table #13: started
+2024/08/25-23:59:33.009 111bd Level-0 table #13: 544 bytes OK
+2024/08/25-23:59:33.012 111bd Delete type=0 #9
+2024/08/25-23:59:33.012 111bd Delete type=2 #8
+2024/08/25-23:59:33.013 111bd Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 239 : 1
+2024/08/25-23:59:33.013 111bd Compacting 1@0 + 1@1 files
+2024/08/25-23:59:33.016 111bd Generated table #14@0: 124 keys, 1659 bytes
+2024/08/25-23:59:33.016 111bd Compacted 1@0 + 1@1 files => 1659 bytes
+2024/08/25-23:59:33.018 111bd compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/25-23:59:33.019 111bd Delete type=2 #13
+2024/08/25-23:59:33.019 111bd Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 239 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

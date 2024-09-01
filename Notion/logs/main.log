@@ -1,0 +1,340 @@
+[2024-08-24 15:20:10.055] [info]                  App starting with version 3.12.2 { system: 'linux x64', electron: '31.4.0' }
+[2024-08-24 15:20:10.065] [info]                  first instance!
+[2024-08-24 15:20:10.187] [info]                  Auto updates are disabled.
+[2024-08-24 15:20:10.309] [info]  (Sqlite)        Child process running on 46303
+[2024-08-24 15:20:10.404] [info]                  App is visible: true
+[2024-08-24 15:20:10.787] [info]  (Sqlite (Child)) Websocket listening on 46303...
+[2024-08-24 15:20:10.802] [info]  (Sqlite (Child)) Setting up up server listeners with auth (64ebf21b072bf5af25de452c4359c08d7e146af2)...
+[2024-08-24 15:20:10.803] [info]  (Sqlite (Child)) Server up and running
+[2024-08-24 15:20:10.817] [info]  (Sqlite)        stdout: 15:20:10.787 (Sqlite (Child)) › Websocket listening on 46303...
+
+[2024-08-24 15:20:10.820] [info]  (Sqlite)        stdout: 15:20:10.802 (Sqlite (Child)) › Setting up up server listeners with auth (64ebf21b072bf5af25de452c4359c08d7e146af2)...
+15:20:10.803 (Sqlite (Child)) › Server up and running
+
+[2024-08-24 15:20:20.895] [error] (browserView-1) did-fail-provisional-load {
+  errorCode: -106,
+  errorDescription: 'ERR_INTERNET_DISCONNECTED',
+  validatedURL: 'https://www.notion.so/'
+}
+[2024-08-24 15:20:20.897] [error] (browserView-1) did-fail-load {
+  errorCode: -106,
+  errorDescription: 'ERR_INTERNET_DISCONNECTED',
+  validatedURL: 'https://www.notion.so/'
+}
+[2024-08-24 15:20:20.903] [info]                  App is visible: false
+[2024-08-24 15:20:20.922] [error]                 Error loading initial URL: https://www.notion.so Error: ERR_INTERNET_DISCONNECTED (-106) loading 'https://www.notion.so/'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:78996)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:79158)
+    at WebContents.emit (node:events:519:28)
+    at WebContents.emit (node:domain:488:12)
+    at r.emit (/usr/lib/notion-app/app.asar/.webpack/main/index.js:2:507905)
+[2024-08-24 15:20:21.025] [error] (browserView-6) did-fail-provisional-load {
+  errorCode: -106,
+  errorDescription: 'ERR_INTERNET_DISCONNECTED',
+  validatedURL: 'https://www.notion.so/quick-search'
+}
+[2024-08-24 15:20:21.028] [error] (browserView-6) did-fail-load {
+  errorCode: -106,
+  errorDescription: 'ERR_INTERNET_DISCONNECTED',
+  validatedURL: 'https://www.notion.so/quick-search'
+}
+[2024-08-24 15:20:28.567] [info]                  {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '3.12.2',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i7-1360P',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '0fe83682-f893-40ae-aebc-a18babf058eb',
+    version: '23.13.0.391',
+    isElectron: true,
+    os: 'chrome',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/3.12.2 Chrome/126.0.6478.234 Electron/31.4.0 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    experiments: {},
+    storageUsageEstimate: 596,
+    storageQuotaEstimate: 1289052525140,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.10.6-arch1-1',
+    desktopElectronVersion: '31.4.0',
+    desktopChromiumVersion: '126.0.6478.234',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopVersion: '3.12.2'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerVersion: 5,
+    miscDataString: '{"path":"/images/emoji/twitter-emoji-spritesheet-64.2d0a6b9b.png"}'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'badFetchResponse'
+}
+[2024-08-24 15:20:29.066] [info]                  {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '3.12.2',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i7-1360P',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '0fe83682-f893-40ae-aebc-a18babf058eb',
+    version: '23.13.0.391',
+    isElectron: true,
+    os: 'chrome',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/3.12.2 Chrome/126.0.6478.234 Electron/31.4.0 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    experiments: {},
+    storageUsageEstimate: 596,
+    storageQuotaEstimate: 1289052525140,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.10.6-arch1-1',
+    desktopElectronVersion: '31.4.0',
+    desktopChromiumVersion: '126.0.6478.234',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopVersion: '3.12.2'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerVersion: 5,
+    miscDataString: '{"path":"/_assets/sidebarMobile-651c35d9169829fe.js"}'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'badFetchResponse'
+}
+[2024-08-24 15:20:29.566] [info]                  {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '3.12.2',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i7-1360P',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '0fe83682-f893-40ae-aebc-a18babf058eb',
+    version: '23.13.0.391',
+    isElectron: true,
+    os: 'chrome',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/3.12.2 Chrome/126.0.6478.234 Electron/31.4.0 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    experiments: {},
+    storageUsageEstimate: 596,
+    storageQuotaEstimate: 1289052525140,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.10.6-arch1-1',
+    desktopElectronVersion: '31.4.0',
+    desktopChromiumVersion: '126.0.6478.234',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopVersion: '3.12.2'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerVersion: 5,
+    miscDataString: '{"path":"/images/tooltips/types/text.6cdde1be.png"}'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'badFetchResponse'
+}
+[2024-08-24 15:20:30.067] [info]                  {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '3.12.2',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i7-1360P',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '0fe83682-f893-40ae-aebc-a18babf058eb',
+    version: '23.13.0.391',
+    isElectron: true,
+    os: 'chrome',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/3.12.2 Chrome/126.0.6478.234 Electron/31.4.0 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    experiments: {},
+    storageUsageEstimate: 596,
+    storageQuotaEstimate: 1289052525140,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.10.6-arch1-1',
+    desktopElectronVersion: '31.4.0',
+    desktopChromiumVersion: '126.0.6478.234',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopVersion: '3.12.2'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerVersion: 5,
+    miscDataString: '{"path":"/_assets/74637-0f67ffd84b6622db.js"}'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'badFetchResponse'
+}
+[2024-08-24 15:20:30.353] [error] (browserView-6) did-fail-provisional-load {
+  errorCode: -2,
+  errorDescription: 'ERR_FAILED',
+  validatedURL: 'https://www.notion.so/quick-search'
+}
+[2024-08-24 15:20:30.354] [error] (browserView-6) did-fail-load {
+  errorCode: -2,
+  errorDescription: 'ERR_FAILED',
+  validatedURL: 'https://www.notion.so/quick-search'
+}
+[2024-08-24 15:20:30.568] [info]                  {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '3.12.2',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i7-1360P',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '0fe83682-f893-40ae-aebc-a18babf058eb',
+    version: '23.13.0.391',
+    isElectron: true,
+    os: 'chrome',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/3.12.2 Chrome/126.0.6478.234 Electron/31.4.0 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    experiments: {},
+    storageUsageEstimate: 596,
+    storageQuotaEstimate: 1289052525140,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.10.6-arch1-1',
+    desktopElectronVersion: '31.4.0',
+    desktopChromiumVersion: '126.0.6478.234',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopVersion: '3.12.2'
+  },
+  environment: 'production',
+  data: { serviceWorkerVersion: 5 },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerActivate'
+}
+[2024-08-24 15:20:33.359] [info]                  Preventing closure for window with id 1, hiding
+[2024-08-24 15:20:35.782] [info]                  App is visible: true
+[2024-08-24 15:20:35.787] [info]                  App is visible: false
+[2024-08-24 15:20:35.815] [info]                  App starting with version 3.12.2 { system: 'linux x64', electron: '31.4.0' }
+[2024-08-24 15:20:36.076] [info]                  Auto updates are disabled.
+[2024-08-24 15:20:44.045] [info]                  App is visible: true
+[2024-08-24 15:20:44.050] [info]                  App is visible: false
+[2024-08-24 15:22:07.598] [info]                  Preventing closure for window with id 1, hiding
+[2024-08-24 15:22:11.597] [info]                  App is visible: true
+[2024-08-24 15:22:11.629] [info]                  App is visible: false
+[2024-08-24 15:22:11.638] [info]                  App starting with version 3.12.2 { system: 'linux x64', electron: '31.4.0' }
+[2024-08-24 15:22:11.699] [info]                  App is visible: true
+[2024-08-24 15:22:11.738] [info]                  App is visible: false
+[2024-08-24 15:22:11.926] [info]                  Auto updates are disabled.
+[2024-08-24 15:22:59.742] [info]                  Preventing closure for window with id 1, hiding
+[2024-08-25 23:56:55.674] [info]                  App starting with version 3.12.2 { system: 'linux x64', electron: '31.4.0' }
+[2024-08-25 23:56:55.682] [info]                  first instance!
+[2024-08-25 23:56:55.945] [info]                  Auto updates are disabled.
+[2024-08-25 23:56:56.064] [info]  (Sqlite)        Child process running on 45965
+[2024-08-25 23:56:56.182] [info]                  App is visible: true
+[2024-08-25 23:56:56.509] [info]  (Sqlite (Child)) Websocket listening on 45965...
+[2024-08-25 23:56:56.522] [info]  (Sqlite (Child)) Setting up up server listeners with auth (2e71d70df456bd6704971a8ef5b44c4af0b87e10)...
+[2024-08-25 23:56:56.522] [info]  (Sqlite (Child)) Server up and running
+[2024-08-25 23:56:56.567] [info]  (Sqlite)        stdout: 23:56:56.509 (Sqlite (Child)) › Websocket listening on 45965...
+23:56:56.522 (Sqlite (Child)) › Setting up up server listeners with auth (2e71d70df456bd6704971a8ef5b44c4af0b87e10)...
+23:56:56.522 (Sqlite (Child)) › Server up and running
+
+[2024-08-25 23:58:40.579] [info]                  App starting with version 3.12.2 { system: 'linux x64', electron: '31.4.0' }
+[2024-08-25 23:58:40.722] [info]                  Auto updates are disabled.
+[2024-08-25 23:58:47.273] [info]                  App starting with version 3.12.2 { system: 'linux x64', electron: '31.4.0' }
+[2024-08-25 23:58:47.455] [info]                  Auto updates are disabled.
+[2024-08-26 00:00:08.839] [info]                  Preventing closure for window with id 1, hiding
+[2024-08-26 00:00:17.389] [info]                  App is visible: false
+[2024-08-26 00:00:17.403] [info]                  App starting with version 3.12.2 { system: 'linux x64', electron: '31.4.0' }
+[2024-08-26 00:00:17.701] [info]                  Auto updates are disabled.
+[2024-08-26 00:00:27.009] [info]                  Preventing closure for window with id 1, hiding
+[2024-08-26 00:07:06.415] [info]                  {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '3.12.2',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i7-1360P',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '26f249b6-2e15-4ec8-a821-9c0673a37ea7',
+    version: '23.13.0.391',
+    isElectron: true,
+    os: 'chrome',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/3.12.2 Chrome/126.0.6478.234 Electron/31.4.0 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    experiments: {},
+    storageUsageEstimate: 29245,
+    storageQuotaEstimate: 1287621038653,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.10.6-arch1-1',
+    desktopElectronVersion: '31.4.0',
+    desktopChromiumVersion: '126.0.6478.234',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopVersion: '3.12.2',
+    userId: '7967cd0d-fa62-4ae3-804f-b65c2c760d6a'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerVersion: 5,
+    miscDataString: '{"exception":{},"path":"/_assets/60200-eeac7c73f6f4002d.js"}'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2024-08-26 00:07:06.913] [info]                  {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '3.12.2',
+  desktopCPU: '13th Gen Intel(R) Core(TM) i7-1360P',
+  desktopRAM: '15G',
+  clientEnvironmentData: {
+    idbSessionId: '26f249b6-2e15-4ec8-a821-9c0673a37ea7',
+    version: '23.13.0.391',
+    isElectron: true,
+    os: 'chrome',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/3.12.2 Chrome/126.0.6478.234 Electron/31.4.0 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    experiments: {},
+    storageUsageEstimate: 29245,
+    storageQuotaEstimate: 1287621038653,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.10.6-arch1-1',
+    desktopElectronVersion: '31.4.0',
+    desktopChromiumVersion: '126.0.6478.234',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopVersion: '3.12.2',
+    userId: '7967cd0d-fa62-4ae3-804f-b65c2c760d6a'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerVersion: 5,
+    miscDataString: '{"exception":{},"path":"/images/mab/mention-person.d41d8cd9.svg"}'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2024-08-26 17:58:09.679] [info]                  App starting with version 3.12.2 { system: 'linux x64', electron: '31.4.0' }
+[2024-08-26 17:58:09.688] [info]                  first instance!
+[2024-08-26 17:58:09.839] [info]                  Auto updates are disabled.
+[2024-08-26 17:58:09.934] [info]  (Sqlite)        Child process running on 36599
+[2024-08-26 17:58:10.047] [info]                  App is visible: true
+[2024-08-26 17:58:10.411] [info]  (Sqlite (Child)) Websocket listening on 36599...
+[2024-08-26 17:58:10.430] [info]  (Sqlite (Child)) Setting up up server listeners with auth (401b1e9a7477cc30b72087fad97fe9d5b62752ab)...
+[2024-08-26 17:58:10.432] [info]  (Sqlite (Child)) Server up and running
+[2024-08-26 17:58:10.440] [info]  (Sqlite)        stdout: 17:58:10.411 (Sqlite (Child)) › Websocket listening on 36599...
+
+[2024-08-26 17:58:10.455] [info]  (Sqlite)        stdout: 17:58:10.430 (Sqlite (Child)) › Setting up up server listeners with auth (401b1e9a7477cc30b72087fad97fe9d5b62752ab)...
+17:58:10.432 (Sqlite (Child)) › Server up and running
+
+[2024-08-26 17:58:28.834] [info]                  Preventing closure for window with id 1, hiding
+[2024-08-26 18:31:30.829] [info]                  Quitting...
+[2024-08-26 18:31:30.829] [info]  (Sqlite (Child)) Responding to SIGTERM and shutting down...
+[2024-08-26 18:31:30.831] [info]  (Sqlite)        Killing child process
